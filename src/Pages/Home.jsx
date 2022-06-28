@@ -8,7 +8,9 @@ export default function Home() {
 		console.log(counter);
 	}
 	function decrement(){
-		setCounter(counter-1)
+		if(counter > 0){
+			setCounter(counter-1)
+		}
 		console.log(counter);
 	}
 	return (
