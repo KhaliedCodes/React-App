@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Button from '../Components/Button/Button'
+import Button from '../../Components/button/Button'
 
 export default function Home() {
 	const [counter, setCounter] = useState(0)
