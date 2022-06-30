@@ -6,6 +6,7 @@ import Nav from './Components/nav/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Shop from './Pages/shop/Shop';
 import Details from './Pages/shop/Details';
+import Todo from './Pages/todo/Todo';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route path='/shop' element={<Shop/>}/>
           <Route path='/counter' element={<Counter/>}/>
           <Route path='/shop/:id'  element={<Details/>}/>
+          <Route path='/todo'  element={<Todo/>}/>
         </Routes>
       </BrowserRouter>
       

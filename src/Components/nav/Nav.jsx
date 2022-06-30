@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Home from '../../Pages/home/Home'
 
 function Nav() {
 	return (
@@ -8,7 +7,7 @@ function Nav() {
 			<Link to={'/'} className="nav-link" >Home</Link>
 			<Link to={'/shop'} className="nav-link">Shop</Link>
 			<Link to={'counter'}   className="nav-link">Counter</Link>
-			<Link to={'/'} className="nav-link">Disabled</Link>
+			<Link to={'/todo'} className="nav-link">Todo</Link>
 		</nav>
 
 	)
